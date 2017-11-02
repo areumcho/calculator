@@ -7,33 +7,49 @@ h1{
     text-align: center;
 }
 
+
+
 form {
     margin: 0 auto;
     display: inline-block;
     text-align: center;
 }
 
-td {
+
+th input[type="text"]{
+    width: 99%;
+    height: 70px;
+    
+}
+
+td input[type="button"] {
     width: 100px;
     height: 70px;
     border: 1px solid #000;
     text-align: center;
 }
 
-td#result {
-    text-align: right;
-   padding-right: 30px;
+td input[type="button"] {
+    text-align: center;
+    background-color:  #F2F2F2;
 }
 
-
-td#num {
-    background-color: #F2F2F2;
+td input[type="button"]:hover {
+    border: 2px solid #000;
+    background-color:  #F2F2F2;
 }
 
-td#opr {
-    background-color: #D3D3D3;
+/*
+td:last-child input[type="button"] {
+    background-color:  #D3D3D3;
+}
+*/
+
+td input[class="clearBtn"], td input[class="resultBtn"]  {
+     background-color: #4982FA;
 }
 
-td#equal {
-    background-color: #4982FA;
+td input[class="opr"]  {
+     background-color:#D3D3D3;
 }
+

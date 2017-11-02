@@ -4,51 +4,52 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     
     
     <h1>My Calculator</h1>
     
-    <form>
+    <form name="calcForm">
         <table>
             
             <tr>
-                <td id=result colspan="4">0</td>
+                <th colspan="4"><input type="text" name="result" value="0"></th>
             </tr>
             <tr>
-                <td id="opr">C</td>
-                <td id="opr">.</td>
-                <td id="opr">%</td>
-                <td id="opr">/</td>
-            </tr>
-            
-            <tr>
-                <td id="num">7</td>
-                <td id="num">8</td>
-                <td id="num">9</td>
-                <td id="opr">*</td>
+                <td><input type="button" value="C" class="clearBtn"></td>
+                <td><input type="button" value="." class="opr"></td>
+                <td><input type="button" value="%" class="opr"></td>
+                <td><input type="button" value="/" class="opr"></td>
             </tr>
             
             <tr>
-                <td id="num">4</td>
-                <td id="num">5</td>
-                <td id="num">6</td>
-                <td id="opr">-</td>
+                <td><input type="button" value="7"></td>
+                <td><input type="button" value="8"></td>
+                <td><input type="button" value="9"></td>
+                <td><input type="button" value="*" class="opr"></td>
             </tr>
             
             <tr>
-                <td id="num">1</td>
-                <td id="num">2</td>
-                <td id="num">3</td>
-                <td id="opr">+</td>
+                <td><input type="button" value="4"></td>
+                <td><input type="button" value="5"></td>
+                <td><input type="button" value="6"></td>
+                <td><input type="button" value="-" class="opr"></td>
             </tr>
             
             <tr>
-                <td id="num">0</td>
-                <td id="opr">(</td>
-                <td id="opr">)</td>
-                <td id="equal">=</td>
+                <td><input type="button" value="1"></td>
+                <td><input type="button" value="2"></td>
+                <td><input type="button" value="3"></td>
+                <td><input type="button" value="+" class="opr"></td>
+            </tr>
+            
+            <tr>
+                <td><input type="button" value="0"></td>
+                <td><input type="button" value="(" class="opr"></td>
+                <td><input type="button" value=")" class="opr"></td>
+               <td><input type="button" value="=" class="resultBtn"></td>
             </tr>
             
         </table>
